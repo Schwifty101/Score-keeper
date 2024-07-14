@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-self: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 5%;
+            /* display: flex;
+            justify-content: center; */
+        }
+
+        .button.is-info {
+            margin: 0 0.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <section class="section"> -->
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-half">
+                <div class="card is-responsive">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://images.unsplash.com/photo-1705087917495-8530cbaa858e?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Table Tennis Image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h2 class="is-size-4 mb-0"><span id="bestOf-p1-display">0</span> - <span
+                                    id="bestOf-p2-display">0</span></h2>
+                            <h1 class="title is-1 mt-0"><span id="p1Display">0</span> to <span id="p2Display">0</span>
+                            </h1>
+                            <p class="subtitle">Use the buttons below to keep track of score</p>
+
+                            <div class="bestOf-container my-2">
+                                <label for="bestOf" class="label is-large is-inline">Best Of</label>
+                                <div class="select is-rounded">
+                                    <select name="bestof" id="bestOf">
+                                        <option value="1">1</option>
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <label for="maxScore" class="label is-large is-inline">Playing to</label>
+                            <div class="select is-rounded">
+                                <select name="maxScore" id="maxScore">
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="8">8</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button is-primary is-responsive card-footer-item is-size-6" id="p1Button">+1
+                                Player 1</button>
+                            <button class="button is-info is-responsive card-footer-item is-size-6" id="p2Button">+1
+                                Player 2</button>
+                            <button class="button is-danger is-responsive card-footer-item is-size-6"
+                                id="reset">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
