@@ -14,9 +14,9 @@ This repository contains two separate projects: a Photo Blog and a Score Keeper 
 
 ### Features
 
-- **Responsive Design**: The gallery is designed to be responsive, with images arranged in a flexible layout.
-- **Custom Fonts**: Utilizes the 'Raleway' font from Google Fonts for a clean and modern look.
-- **Creative Commons Licensed Photos**: All photos are licensed under Creative Commons 2.0.
+- Responsive Design: The gallery is designed to be responsive, with images arranged in a flexible layout.
+- Custom Fonts: Utilizes the 'Raleway' font from Google Fonts for a clean and modern look.
+- Creative Commons Licensed Photos**: All photos are licensed under Creative Commons 2.0.
 
 ### File Details
 
@@ -24,7 +24,7 @@ This repository contains two separate projects: a Photo Blog and a Score Keeper 
 
 This file sets up the basic structure of the photo blog, including the navigation and photo gallery sections.
 
-```html
+####HTML
 <!DOCTYPE html>
 <html>
 
@@ -124,7 +124,7 @@ This project is licensed under the Creative Commons 2.0 License. See the [LICENS
 
 This file sets up the basic structure of the score keeper application, including the UI elements for displaying scores and controls for updating scores.
 
-```html
+####html
 <!DOCTYPE html>
 <html lang="en">
 
